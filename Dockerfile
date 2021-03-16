@@ -13,6 +13,7 @@ RUN chmod +x /usr/bin/detect-apt-proxy.sh \
 RUN apt-get update \  
 	&& apt-get install -y \
 		avahi-daemon \
+		bash-completion \
 		cron \
 		dbus \
 		htop \
