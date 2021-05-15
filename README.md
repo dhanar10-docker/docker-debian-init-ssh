@@ -1,4 +1,4 @@
-# docker-debian-init-ssh
+# debian-init-ssh-docker
 
 A Debian container anti-pattern with systemd init and ssh server to mimic a standalone headless system for development and testing purposes
 
@@ -15,8 +15,8 @@ A Debian container anti-pattern with systemd init and ssh server to mimic a stan
 ### Deployment
 
 ```bash
-$ git clone https://github.com/dhanar10/docker-debian-init-ssh.git
-$ cd docker-debian-init-ssh
+$ git clone https://github.com/dhanar10/debian-init-ssh-docker.git
+$ cd debian-init-ssh-docker
 $ bash deploy.sh --name sandbox --hostname sandbox
 ```
 
